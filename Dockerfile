@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 # Build arguments to control versions
-ARG HUGO_VERSION=0.121.1
+ARG HUGO_VERSION=0.147.1
 ARG GO_VERSION=1.21.5
 
 # Install dependencies
