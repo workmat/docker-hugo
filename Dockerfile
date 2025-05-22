@@ -2,7 +2,7 @@ FROM alpine:latest
 
 # Build arguments to control versions
 ARG HUGO_VERSION=0.147.1
-ARG GO_VERSION=1.21.5
+ARG GO_VERSION=1.24.3
 
 # Install dependencies
 RUN apk add --no-cache \
